@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Button, Table } from "react-bootstrap";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import Contact from "./Contact";
+import Contact from "./contact";
 
 export function Layout() {
   return (
